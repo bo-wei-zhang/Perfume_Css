@@ -39,7 +39,8 @@ a {
 nav {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center;    
+    justify-content: space-between;
     padding: 10px 70px 5px;
     position: fixed;
     z-index: 99;
@@ -50,12 +51,13 @@ nav {
 }
 
 .logo {
-    width: 65%;
+    width: 50%;
 }
 
 nav .links {
-    width: 35%;
+    width: 50%;
     display: flex;
+    flex-flow: row-reverse;
     color: rgba(0, 0, 0, .55);
 }
 
