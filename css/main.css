@@ -114,6 +114,7 @@ nav .nav-menu span {
 
 .intro img {
     width: 50%;
+    max-height: 100%;
 }
 
 .intro .txt {
